@@ -2,21 +2,21 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>PHP1</title>
 </head>
 <body>
     <div class="container">
     <?php
+    /*Definição do universo*/
     $universe = "Marvel";
+    /*Numero de repetições*/
     $rep = 5;
-    $hero = "Homem Formiga";
+    /*Nome do herói*/
+    $hero = "Viuva Negra";
     for($x = 0;$x <= $rep; $x++){
-        if($universe == "Marvel"){
+if($universe == "Marvel"){
             echo "<h1>O universo é Marvel</h1> <br>";
-            
             if($hero == "Hulk"){
                 echo "O personagem é Hulk <br>";
                 echo "<img src='imgs/hulk.jpg'><br>";
@@ -60,13 +60,12 @@
             else{
                 echo "Personagem inválido <br>";
             }
-        }
-    }
-        $x = 0;
-        while($x <= $rep){
-        if($universe == "DC"){
+}
+    } 
+if($universe == "DC"){
+    $x = 0;
+    while($x <= $rep){
             echo "<h1>O universo é DC </h1> <br>";
-        
             if($hero == "Aquaman"){
                 echo "O personagem é Aquaman <br>";
                 echo "<img src='imgs/aqua.jpg'><br>";
@@ -110,24 +109,13 @@
             else{
                 echo "Personagem inválido <br>";
             }
-        }
-        else{
-            echo "O universo é inválido <br>";
-        }
-        $x++;
+            $x++;
     }
-        
-    
-    
-    
+}
+else if($universe != "DC" and $universe != "Marvel"){
+            echo "O universo é inválido <br>";
+}
     ?>
 </div>
-
-
-
-
-
-
-
 </body>
 </html>
