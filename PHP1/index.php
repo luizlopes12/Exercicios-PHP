@@ -109,7 +109,7 @@ if($universe == "DC"){
             else{
                 echo "Personagem inválido <br>";
             }
-    $x++;
+            $x++;
     }
 }
 else if($universe != "DC" and $universe != "Marvel"){
