@@ -116,6 +116,8 @@ else if($universe != "DC" and $universe != "Marvel"){
             echo "O universo é inválido <br>";
 }
     ?>
+
+    
 </div>
 </body>
 </html>
