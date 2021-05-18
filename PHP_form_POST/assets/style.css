@@ -1,0 +1,79 @@
+*, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+body {
+background-color: rgb(78, 78, 255);
+color: white;
+}
+body img {
+width: 500px;
+}
+.container {
+width: 50%;
+margin: auto;
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+.container h1 {
+font-size: 2.5em;
+margin-bottom: 2px;
+margin-top: 5px;
+}
+.container img {
+width: 80%;
+margin: 15px auto;
+border-radius: 150px;
+}
+.main{
+background-color: rgb(47, 47, 209);
+border-radius: 40px;
+width: 400px;
+padding: 20px 0;
+margin: 50px auto;
+}
+.header h2{
+width: 400px;
+text-align: center;
+}
+.heroi-qtd{
+display: flex;
+justify-content: space-evenly;
+width: 400px;
+}
+.heroi{
+display: flex;
+flex-direction: column;
+}
+.qtd{
+display: flex;
+flex-direction: column;
+}
+.universo-submit{
+display: flex;
+padding: 42px;
+width: 400px;
+}
+.universo{
+width: 400px;
+}
+.radio{
+margin-left: 22px;
+}
+.lbls{
+margin-left: 10px;
+width: 60px;
+display: flex;
+}
+.lbls label{
+margin-left: 10px;
+}
+.btn{
+margin-top: 50px;
+height: 50px;
+width: 200px;
+justify-content: end;
+}

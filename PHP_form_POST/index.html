@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Heróis</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        <h2>Escolha um herói</h2>
+    </div>
+
+
+    <form action="assets/destino.php" method="POST">
+        <div class="heroi-qtd">
+        <div class="heroi">
+        <span>Nome do Herói</span>
+        <select name="select_heroi" id="heroi">
+            <option value="Hulk">Hulk</option>
+            <option value="Capitão América">Capitão América</option>
+            <option value="Homem de Ferro">Homem de Ferro</option>
+            <option value="Pantera Negra">Pantera Negra</option>
+            <option value="Viuva Negra">Viuva Negra</option>
+            <option value="Thor">Thor</option>
+            <option value="Feiticeira escarlate">Feiticeira escarlate</option>
+            <option value="Vespa">Vespa</option>
+            <option value="Homem Aranha">Homem Aranha</option>
+            <option value="Homem Formiga">Homem Formiga</option>
+            <option value="Aquaman">Aquaman</option>
+            <option value="Batman">Batman</option>
+            <option value="Superman">Superman</option>
+            <option value="Lanterna Verde">Lanterna Verde</option>
+            <option value="Mulher Maravilha">Mulher Maravilha</option>
+            <option value="Coringa">Coringa</option>
+            <option value="Charada">Charada</option>
+            <option value="Arqueiro Verde">Arqueiro Verde</option>
+            <option value="Robin">Robin</option>
+            <option value="Ravena">Ravena</option>
+        </select>
+    </div>
+    <div class="qtd">
+        <span>Quantidade</span>
+        <input name="input_qtd" type="number">
+    </div>
+</div>
+    <div class="universo-submit">
+    <div class="universo">
+        <p>Universo:</p>
+        <input type="radio" class="radio" name="input_universo" id="universo" value="DC">
+        <input type="radio" class="radio" name="input_universo" id="universo" value="Marvel">
+        <div class="lbls">
+        <label for="universoDC" class="universo">DC</label>
+        <label for="universoMarvel" class="universo">Marvel</label>
+    </div>
+    </div>
+        <input type="submit" class="btn">
+
+</div>
+    </form>
+
+
+
+</div>
+
+
+</body>
+</html>
